@@ -1018,6 +1018,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4121756815216968626, guid: 97a69672cd9697f41bb42a2ce2f44216, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b3576584c4114f249ac1537970e04c5a, type: 2}
     - target: {fileID: 4406027248556574021, guid: 97a69672cd9697f41bb42a2ce2f44216, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1075,6 +1079,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1085628682721219360, guid: c93967e90c5f4ac479b3b48efdc7f4c1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9067dd3563d756b49b06a84577372c4c, type: 2}
     - target: {fileID: 2166733456583948939, guid: c93967e90c5f4ac479b3b48efdc7f4c1, type: 3}
       propertyPath: m_Name
       value: Ozzy
