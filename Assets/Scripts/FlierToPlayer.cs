@@ -1,18 +1,18 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class FlierToPlayer : MonoBehaviour
+public class FlierToTrigerVolume : MonoBehaviour
 {
-    [SerializeField] Transform player;
+    [SerializeField] Transform trigerVolume;
     [SerializeField] float moveSpeed = 0.1f;
-    Vector3 playerPosition;
+    Vector3 trigerVolumePosition;
     void Start()
     {
-        playerPosition = player.transform.position;
+      trigerVolumePosition = trigerVolume.transform.position;
     }
 
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, playerPosition, moveSpeed);
+        transform.position = Vector3.MoveTowards(transform.position, trigerVolumePosition, moveSpeed);
     }
 }
